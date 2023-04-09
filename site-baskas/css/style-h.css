@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #141414;
+}
+
+.back{
+    background-image: url("../img/creu3.png");
+}
+
+.cabeça{
+    padding: 7px;
+    text-align: center;
+    background: #d67418;
+    background-image: url("../img/creu4.png");
+}
+
+.cabeça h1{
+    font-size: 40px;
+}
+
+.links{
+
+    overflow: hidden;
+    background-color: white;
+}
+
+.links a{
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: #d67418;
+    color: #ffffff;
+}
+
+.font{
+    font-size: 20px;
+    color: #d67418;
+}
+
+.colunaesquerdade{
+    float: left;
+    width: 55%;
+}
+
+.colunadireita {
+    
+    float: left;
+    width: 45%;
+    background-color: transparent;
+    padding-left: 60px;
+}
+
+.corpo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.temp{
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.temp h1{
+    color: #ffffff;
+}
+
+.temp h2{
+    color: #ffffff;
+}
+
+.img{
+    
+    border: 5px solid rgb(0, 0, 0);
+    width: 45%;
+    height: 400px;
+}
+
+.img2{
+    height: 85px;
+}
+
+.img3{
+    height: 13%;
+    width: 13%;
+}
+
+.rodape {
+    height: 140px;
+    outline-style: dotted;
+    border: 15px solid #d67418;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .colunaesquerdade, .colunadireita {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links a {
+      float: none;
+      width: 100%;
+    }
+}
