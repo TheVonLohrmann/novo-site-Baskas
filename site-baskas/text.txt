@@ -160,3 +160,51 @@
               <iframe width="510" height="320" src="https://www.youtube.com/embed/CXLM08fZO5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
          <img class="img3" src="img/Captura de tela 2023-04-04 161931.png" >    
+
+
+         .colunaesquerdade{
+    float: left;
+    width: 30%;
+    
+}
+
+.colunacentro{
+    float: left;
+    width: 40%;
+}
+
+.colunadireita {
+    
+    float: left;
+    width: 30%;
+ 
+}
+
+<center><h2>História do Basquete | Nerdologia</h2>
+            <iframe width="510" height="315" src="https://www.youtube.com/embed/T7_q5bwtLuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center> 
+          </div>
+          <div class="temp">
+            <center><h2>História do Basquetebol Completa no Brasil e no Mundo</h2>
+                <iframe width="510" height="315" src="https://www.youtube.com/embed/TrqpKTU8T8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </center> 
+           </div>
+           <div class="temp">
+            <center><h2>--Basquete no Brasil--</h2>
+                <p class="font">
+                   O basquete chegou no Brasil ainda no século XIX, pelas mãos de Augusto Shaw, 
+                   um norte-americano que veio ao país dar aulas no Colégio Mackenzie, em São Paulo.
+                   <br>
+                   <br>
+                   A disseminação do esporte pelo Brasil também teve a participação da mesma entidade em que surgiu
+                   o basquete nos Estados Unidos, a ACM. Em 1912 foram realizados os primeiros torneios,
+                   e em 1916 a Liga Metropolitana dos Sports Athléticos reconheceu o basquete enquanto esporte,
+                   criando o primeiro campeonato oficial em 1919. Deste campeonato, saiu vencedora a equipe do Flamengo.
+                   <br>
+                   <br>
+                   Entre os principais nomes do basquete no Brasil, temos Oscar Schmidt,
+                   Hortência, Paula e Janete. Todos atletas olímpicos e de destaque nas ligas nacionais.
+                   <br>
+                   <br>
+                </p>
+            </center> 

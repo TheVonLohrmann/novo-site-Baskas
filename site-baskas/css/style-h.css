@@ -44,21 +44,33 @@ body{
 }
 
 .font{
+    
+    font-size: 20px;
+    color: #d67418;
+}
+
+.font{
+    
     font-size: 20px;
     color: #d67418;
 }
 
 .colunaesquerdade{
     float: left;
-    width: 55%;
+    width: 15%;
+    
+}
+
+.colunacentro{
+    float: left;
+    width: 45%;
 }
 
 .colunadireita {
     
     float: left;
-    width: 45%;
-    background-color: transparent;
-    padding-left: 60px;
+    width: 40%;
+    
 }
 
 .corpo::after {
@@ -70,12 +82,13 @@ body{
 .temp{
     border-radius: 10%;
     background-color: transparent;
-    padding: 20px;
+    padding: 0px;
     margin-top: 20px;
 }
 
 .temp h1{
-    color: #ffffff;
+    text-align: right;
+    color: #d67418;
 }
 
 .temp h2{
@@ -89,6 +102,13 @@ body{
     height: 400px;
 }
 
+.img1{
+    
+    height: 105%;
+    width: 105%;
+    
+}
+
 .img2{
     height: 85px;
 }
@@ -96,6 +116,13 @@ body{
 .img3{
     height: 13%;
     width: 13%;
+}
+
+.img4{
+    height: 100%;
+    width: 100%;
+    opacity: 55%;
+
 }
 
 .rodape {
@@ -106,6 +133,24 @@ body{
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+}
+
+.video::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colues{
+    float: left;
+    width: 50%;
+    background-color: #141414;
+}
+
+.coludi{
+    float: left;
+    width: 50%; 
+    background-color: #141414;
 }
 
 
