@@ -26,7 +26,7 @@ body{
 .links{
 
     overflow: hidden;
-    background-color: white;
+    background-color: #feedda;
 }
 
 .links a{
@@ -40,23 +40,28 @@ body{
 
 .links a:hover{
     background-color: #d67418;
-    color: #ffffff;
+    color: #feedda;
 }
 
 .font{
-    font-size: 20px;
+    font-size: 25px;
     color: #d67418;
+}
+
+.font2{
+    font-size: 25px;
+    color: #feedda;
 }
 
 .colunaesquerdade{
     float: left;
-    width: 55%;
+    width: 50%;
 }
 
 .colunadireita {
     
     float: left;
-    width: 45%;
+    width: 50%;
     background-color: transparent;
     padding-left: 60px;
 }
@@ -75,11 +80,11 @@ body{
 }
 
 .temp h1{
-    color: #ffffff;
+    color: #feedda;
 }
 
 .temp h2{
-    color: #ffffff;
+    color: #feedda;
 }
 
 .img{
@@ -104,7 +109,7 @@ body{
     border: 15px solid #d67418;
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #feedda;
     margin-top: 20px;
 }
 

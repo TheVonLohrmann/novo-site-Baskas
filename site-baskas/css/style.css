@@ -21,13 +21,13 @@ body{
 
 .cabeça h1{
     font-size: 40px;
-    color: #ffffff;
+    color: #feedda;
 }
 
 .links{
 
     overflow: hidden;
-    background-color: white;
+    background-color: #feedda;
 }
 
 .links a{
@@ -41,16 +41,16 @@ body{
 
 .links a:hover{
     background-color: #d67418;
-    color: #ffffff;
+    color: #feedda;
 }
 
 .temp h2{
     font-size: 30px;
-    color: #ffffff;
+    color: #feedda;
 }
 
 .font{
-    font-size: 20px;
+    font-size: 25px;
     color: #d67418;
 }
 
@@ -85,13 +85,6 @@ body{
     margin-top: 20px;
 }
 
-.img{
-    
-    border: 5px solid rgb(0, 0, 0);
-    width: 60%;
-    height: 250px;
-}
-
 .img2{
     height: 85px;
 }
@@ -107,7 +100,7 @@ body{
     border: 15px solid #d67418;
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #feedda;
     margin-top: 20px;
 }
 

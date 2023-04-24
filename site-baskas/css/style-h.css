@@ -26,7 +26,7 @@ body{
 .links{
 
     overflow: hidden;
-    background-color: white;
+    background-color: #feedda;
 }
 
 .links a{
@@ -40,20 +40,15 @@ body{
 
 .links a:hover{
     background-color: #d67418;
-    color: #ffffff;
+    color: #feedda;
 }
 
 .font{
     
-    font-size: 20px;
+    font-size: 25px;
     color: #d67418;
 }
 
-.font{
-    
-    font-size: 20px;
-    color: #d67418;
-}
 
 .colunaesquerdade{
     float: left;
@@ -92,15 +87,9 @@ body{
 }
 
 .temp h2{
-    color: #ffffff;
+    color: #feedda;
 }
 
-.img{
-    
-    border: 5px solid rgb(0, 0, 0);
-    width: 45%;
-    height: 400px;
-}
 
 .img1{
     
@@ -121,7 +110,7 @@ body{
 .img4{
     height: 100%;
     width: 100%;
-    opacity: 55%;
+    opacity: 65%;
 
 }
 
@@ -131,7 +120,7 @@ body{
     border: 15px solid #d67418;
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #feedda;
     margin-top: 20px;
 }
 

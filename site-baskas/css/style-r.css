@@ -26,7 +26,7 @@ body{
 .links{
 
     overflow: hidden;
-    background-color: white;
+    background-color: #feedda;
 }
 
 .links a{
@@ -40,25 +40,51 @@ body{
 
 .links a:hover{
     background-color: #d67418;
-    color: #ffffff;
+    color: #feedda;
+}
+
+.falta{
+    color: #feedda;
 }
 
 .font{
-    font-size: 20px;
+    font-size: 25px;
     color: #d67418;
 }
 
+
+.colues{
+    float: left;
+    width: 30%;
+}
+
+.colucen{
+    float: left;
+    width: 40%;
+}
+
+.colude {
+    float: left;
+    width: 30%;
+}
+
+
+.intro::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .colunaesquerdade{
     float: left;
-    width: 55%;
+    width: 50%;
 }
 
 .colunadireita {
     
     float: left;
-    width: 45%;
-    background-color: transparent;
-    padding-left: 60px;
+    width: 50%;
 }
 
 .corpo::after {
@@ -70,23 +96,21 @@ body{
 .temp{
     border-radius: 10%;
     background-color: transparent;
-    padding: 20px;
     margin-top: 20px;
 }
 
 .temp h1{
-    color: #ffffff;
+    text-align: center;
+    color: #feedda;
 }
 
 .temp h2{
-    color: #ffffff;
+    color: #feedda;
 }
 
 .img{
-    
-    border: 5px solid rgb(0, 0, 0);
-    width: 45%;
-    height: 400px;
+    border: 4px solid #feedda;
+    width: 70%;
 }
 
 .img2{
@@ -98,13 +122,23 @@ body{
     width: 13%;
 }
 
+table, th, td {
+    border: 1px solid #feedda;
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td {
+    height: 40px;
+    background-color: #d67418;
+}
+
 .rodape {
     height: 140px;
     outline-style: dotted;
     border: 15px solid #d67418;
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #feedda;
     margin-top: 20px;
 }
 
