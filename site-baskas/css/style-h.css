@@ -44,7 +44,6 @@ body{
 }
 
 .font{
-    
     font-size: 25px;
     color: #d67418;
 }
@@ -61,11 +60,9 @@ body{
     width: 45%;
 }
 
-.colunadireita {
-    
+.colunadireita { 
     float: left;
     width: 40%;
-    
 }
 
 .corpo::after {
