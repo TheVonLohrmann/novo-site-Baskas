@@ -111,6 +111,11 @@ body{
     border-radius: 20%;
 }
 
+.img5{
+    height: 14px;
+    width: 19px;
+}
+
 .rodape {
     height: 140px;
     outline-style: dotted;

@@ -116,6 +116,11 @@ body{
     width: 100%;
 }
 
+.img5{
+    height: 14px;
+    width: 19px;
+}
+
 
 @media screen and (max-width: 800px) {
     .colunaesquerdade, .colunadireita {   

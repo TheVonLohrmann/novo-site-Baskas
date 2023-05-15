@@ -122,6 +122,11 @@ body{
     width: 13%;
 }
 
+.img5{
+    height: 14px;
+    width: 19px;
+}
+
 table, th, td {
     border: 1px solid #feedda;
     border-collapse: collapse;
