@@ -76,6 +76,7 @@ body{
     background-color: transparent;
     padding: 0px;
     margin-top: 20px;
+    
 }
 
 .temp h1{
@@ -96,7 +97,7 @@ body{
 }
 
 .img2{
-    height: 85px;
+    height: 120%;
 }
 
 .img3{
@@ -146,7 +147,7 @@ body{
 
 
 @media screen and (max-width: 800px) {
-    .colunaesquerdade, .colunadireita {   
+    .colunaesquerdade, .colunadireita, .colunacentro {   
       width: 100%;
       padding: 0;
     }

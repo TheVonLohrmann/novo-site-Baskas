@@ -211,3 +211,46 @@
 
 
 https://www.instagram.com/_gi_gigii/
+
+position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+
+
+    border-radius: 10%;
+    background-color: transparent;
+    margin-top: 20px;
+    background-color: #feedda;
+
+
+    
+.arrow-left,
+.arrow-right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: #d67418;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right{
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.arrow-left:hover,
+.arrow-right:hover{
+    opacity: 1;
+}

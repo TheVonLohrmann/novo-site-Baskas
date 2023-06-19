@@ -43,6 +43,29 @@ body{
     color: #feedda;
 }
 
+.gallery-wrapper{
+    overflow-x: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.item{
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    border-radius: 10%;
+}
+
+.discri{
+    color: #d67418;
+    opacity: 0.6;
+}
+
 .font{
     font-size: 25px;
     color: #d67418;
@@ -51,12 +74,12 @@ body{
 .colunaesquerdade{
     float: left;
     width: 30%;
+    
 }
 
 .colunacentro{
     float: left;
     width: 40%;
-    height: 80vh;
 }
 
 .colunadireita {
@@ -72,10 +95,13 @@ body{
 }
 
 .temp{
-    border-radius: 10%;
-    background-color: transparent;
-    margin-top: 20px;
+    position: relative;
+    padding: 15px;
+    max-width: 555px;
+    margin: 0;
 }
+
+
 
 .temp h1{
     color: #feedda;
@@ -93,7 +119,7 @@ body{
 }
 
 .img2{
-    height: 85px;
+    height: 120%;
 }
 
 .img3{
@@ -122,14 +148,14 @@ body{
 }
 
 
-@media screen and (max-width: 800px) {
-    .colunaesquerdade, .colunadireita {   
+@media screen and (max-width: 480px) {
+    .colunaesquerdade, .colunadireita, .colunacentro{   
       width: 100%;
       padding: 0;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .links a {
       float: none;
       width: 100%;
